@@ -1,0 +1,20 @@
+// == 定義 build logic 位址 ==
+pluginManagement {
+    repositories {
+        gradlePluginPortal()
+    }
+    includeBuild('../build-logic')
+}
+
+// == 定義 components 位址 ==
+dependencyResolutionManagement {
+    repositories {
+        mavenCentral()
+    }
+    includeBuild('../platforms')
+}
+
+// == 定義 component 內部結構 ==
+rootProject.name = 'common-utils'
+include('io-util')
+include('greeting-util')

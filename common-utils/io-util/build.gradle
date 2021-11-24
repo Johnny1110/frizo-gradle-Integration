@@ -1,0 +1,9 @@
+plugins {
+    id('com.frizo.java-library')
+}
+
+group = "${group}.common-utils"
+
+dependencies {
+    implementation('com.fasterxml.jackson.core:jackson-databind')
+}

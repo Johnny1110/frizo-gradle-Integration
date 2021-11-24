@@ -1,0 +1,4 @@
+plugins {
+    id('com.frizo.commons')
+    id('java-library')
+}

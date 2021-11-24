@@ -1,0 +1,11 @@
+plugins {
+    id('groovy-gradle-plugin')
+}
+
+dependencies {
+    implementation(platform('com.frizo.platform:plugins-platform'))
+
+    implementation(project(':commons'))
+
+    implementation('org.springframework.boot:org.springframework.boot.gradle.plugin')
+}

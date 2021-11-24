@@ -1,0 +1,11 @@
+plugins {
+    id('java-platform')
+}
+
+group = 'com.frizo.platform'
+
+dependencies {
+    constraints {
+        api('org.springframework.boot:org.springframework.boot.gradle.plugin:2.4.0')
+    }
+}

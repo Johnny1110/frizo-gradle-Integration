@@ -1,0 +1,10 @@
+plugins {
+    id('com.frizo.spring-boot-application')
+}
+
+group = "${group}.server-application"
+
+dependencies {
+    implementation('com.frizo.lab.common-utils:greeting-util')
+    implementation('com.frizo.lab.common-utils:io-util')
+}
